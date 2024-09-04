@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .repo-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .repo-item {
+            background-color: #fff;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .repo-item h2 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .repo-item p {
+            color: #777;
+        }
+
+        .repo-item .stars {
+            color: #ffcc00;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>GitHub Repository Catalog</h1>
+    </div>
+
+    <div class="container">
+        <ul class="repo-list">
+            <li class="repo-item">
+                <h2>Repository 1</h2>
+                <p>Description of the repository goes here. It explains what the repository is about.</p>
+                <p class="stars">★ 120 Stars</p>
+            </li>
+            <li class="repo-item">
+                <h2>Repository 2</h2>
+                <p>Description of the repository goes here. It explains what the repository is about.</p>
+                <p class="stars">★ 98 Stars</p>
+            </li>
+            <li class="repo-item">
+                <h2>Repository 3</h2>
+                <p>Description of the repository goes here. It explains what the repository is about.</p>
+                <p class="stars">★ 45 Stars</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>GitHub Repository Catalog - 2024</p>
+    </div>
+</body>
+</html>
